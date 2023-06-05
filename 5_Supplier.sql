@@ -52,7 +52,7 @@ FROM Parts;
 
 
 # 2. Alter the data types of sname as varchar(30).
-ALTER TABLE Suppliers ALTER COLUMN sname TYPE VARCHAR(30) not null;
+ALTER TABLE Suppliers MODIFY COLUMN sname VARCHAR(30);
 
 
 
